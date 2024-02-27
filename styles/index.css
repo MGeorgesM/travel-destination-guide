@@ -55,3 +55,47 @@
     font-size: 36px;
     padding-bottom: 16px;
 }
+
+footer {
+    padding: 32px 0;
+}
+
+.footer-container {
+    margin: 96px 0 48px 0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: top;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 36px;
+}
+
+.footer-heading {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    font-size: 16px;
+    color: #343a40
+}
+
+.footer-link:hover,
+.footer-link:active {
+    text-decoration: none;
+    color: #ced4da;
+}
+
