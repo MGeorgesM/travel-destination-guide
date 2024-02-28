@@ -1,13 +1,38 @@
-.section-welcome {
-    background-color: #c5f6fa;
+.hero {
     height: 700px;
+    position: relative;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)),
+        url(../images/hero.jpg);
+    background-size: cover;
+    color: #fff;
 }
 
+.hero-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    margin-bottom: 8px;
+}
+
+.hero-content p {
+    margin-bottom: 12px;
+}
 
 .explore-title {
     padding: 48px 0px;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .cards {
@@ -18,25 +43,25 @@
 }
 
 .card {
-    background-color: #f8f9fa;
+    background-color: #f1f3f5;
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.05);
 }
 
 .destination-img {
-    border-radius: 12px;
+    border-radius: 12px 12px 0 0;
     max-width: 300px;
 }
 
 .destination-box h4 {
     font-size: 24px;
-    margin-top: 16px;
+    margin-top: 8px;
     margin-bottom: 2px;
 }
 
 .destination-box p {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 300px;
     padding: 0 16px;
 }
@@ -47,55 +72,25 @@
 
 .destination-details li {
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
     margin: 8px 0 8px 0;
 }
 
 .booking-price {
-    font-size: 36px;
+    font-size: 24px;
     padding-bottom: 16px;
 }
 
-footer {
-    padding: 32px 0;
-}
-
-.footer-container {
-    margin: 96px 0 48px 0;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: top;
-}
-
-.logo-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footer-logo {
-    height: 36px;
-}
-
-.footer-heading {
+.book-btn:link,
+.book-btn:visited {
+    width: 100%;
     font-size: 24px;
-    margin-bottom: 4px;
-}
-
-.footer-nav {
-    list-style: none;
-}
-
-.footer-link:link,
-.footer-link:visited {
+    font-weight: 400;
+    background-color: #ffd8a8;
+    color: #212529;
     text-decoration: none;
-    font-size: 16px;
-    color: #343a40
+    display: inline-block;
+    padding: 16px 0 24px;
+    border-radius: 0 0 12px 12px;
+    
 }
-
-.footer-link:hover,
-.footer-link:active {
-    text-decoration: none;
-    color: #ced4da;
-}
-

@@ -1,0 +1,54 @@
+.destination {
+    height: 700px;
+    position: relative;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)),
+        url(../images/destination.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.destination-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.destination-content {
+    width: 50%;
+}
+
+.destination-content h1 {
+    margin-bottom: 8px;
+}
+
+.destination-content p {
+    margin-bottom: 12px;
+}
+
+.guide-program {
+    margin: 96px auto 48px auto;
+    width: 1200px;
+}
+
+.guide-program h2 {
+    font-weight: 400;
+}
+
+.guide-program p {
+    margin-top: 12px;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 12px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 128px;
+}
